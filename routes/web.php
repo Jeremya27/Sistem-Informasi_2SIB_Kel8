@@ -29,9 +29,9 @@ Route::get('/jquery', function (){
 
 //Route::Resource('/formulir', App\Http\Controllers\FormulirController::class);
 
-//Route::resource('/admin1',\App\Http\Controllers\AdminController::class);
+Route::resource('/admin1',\App\Http\Controllers\AdminController::class);
 //Auth::routes();
 
-Route::resource('/nilaisiswa',\App\Http\Controllers\NilaiSiswaController::class);
+//Route::resource('/nilaisiswa',\App\Http\Controllers\NilaiSiswaController::class);
 //Auth::routes();
 //Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

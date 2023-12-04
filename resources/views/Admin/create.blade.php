@@ -23,7 +23,7 @@ ap.min.css">
                                 <label class="font-weight-bold">Email</label>
 
                                 <input type="varchar" class="form-control @error('cost') is-invalid @enderror"
-                                    name="email" placeholder="Email">
+                                    name="email" placeholder="Masukkan Email">
 
                                 <!-- error message untuk cost -->
                                 @error('Email')
@@ -39,7 +39,7 @@ mt-2">
                                 <label class="font-weight-bold">Username</label>
 
                                 <input type="varchar" class="form-control @error('cost') is-invalid @enderror"
-                                    name="username" placeholder="Username">
+                                    name="username" placeholder="Masukkan Username">
 
                                 <!-- error message untuk cost -->
                                 @error('username')
@@ -55,7 +55,7 @@ mt-2">
                                 <label class="font-weight-bold">Password</label>
 
                                 <input type="varchar" class="form-control
-@error('due_date') is-invalid @enderror" name="password" placeholder="Password">
+@error('due_date') is-invalid @enderror" name="password" placeholder="Masukkan Password">
 <!-- error message untuk due_date
 
 -->

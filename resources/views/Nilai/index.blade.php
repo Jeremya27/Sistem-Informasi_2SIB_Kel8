@@ -23,9 +23,9 @@ ss">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th scope="col">id_data</th>
-                                    <th scope="col">id_pelajaran</th>
-                                    <th scope="col">deskripsi</th>
+                                    <th scope="col">ID Data</th>
+                                    <th scope="col">ID Pelajaran</th>
+                                    <th scope="col">Deskripsi</th>
                                 </tr>
                             </thead>
                             <tbody>

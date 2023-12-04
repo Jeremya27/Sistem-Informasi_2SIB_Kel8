@@ -20,10 +20,10 @@ ap.min.css">
                         <form action="{{ route('nilaisiswa.store') }}" method="post" enctype="multipart/form-data">
                             @csrf
                             <div class="form-group">
-                                <label class="font-weight-bold">Id_Data</label>
+                                <label class="font-weight-bold">ID Data</label>
 
                                 <input type="varchar" class="form-control @error('cost') is-invalid @enderror"
-                                    name="id_data" placeholder="Id_data">
+                                    name="id_data" placeholder="Isi ID Data">
 
                                 <!-- error message untuk cost -->
                                 @error('id_data')
@@ -36,10 +36,10 @@ mt-2">
                                 @enderror
                                 </div>
                             <div class="form-group">
-                                <label class="font-weight-bold">Id_Pelajaran</label>
+                                <label class="font-weight-bold">ID Pelajaran</label>
 
                                 <input type="varchar" class="form-control @error('cost') is-invalid @enderror"
-                                    name="id_pelajaran" placeholder="Id_pelajaran">
+                                    name="id_pelajaran" placeholder="Isi ID Pelajaran">
 
                                 <!-- error message untuk cost -->
                                 @error('id_pelajaran')
